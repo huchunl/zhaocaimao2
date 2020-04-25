@@ -7,105 +7,108 @@
     <link rel="stylesheet" href="./css/detaicReset.css">
     <link rel="stylesheet" href="./css/iconfont.css">
     <link rel="stylesheet" href="./css/detail.css">
+    <title>详情页</title>
     <script>
+        // rem适配
         window.onload = function () {
-            var fs = document.documentElement.clientWidth / 750 * 100;
+            let fs = document.documentElement.clientWidth * 75 / 750;
             document.querySelector("html").style.fontSize = fs + "px";
         }
     </script>
-    <!-- 
-        rem适配的原理：  cssrem  调整基准是100
-            大屏上面显示大盒子  小屏上面显示小盒子  等比缩放
-
-        不要使用px做单位   rem   rem相对于html根标签的fontsize的大小的为基准的
-            750屏  设置html的fs是100px        1rem = 100px
-            375屏  设置html的fs是50px         1rem = 50px 
-            320屏  设置html的fs是42.666666         1rem = 42.666666
-     -->
-    <title>详情页</title>
-    <style>
-        
-    </style>
 </head>
 
 <body>
-    <!-- top区域 start -->
+    <!-- 头部开始 -->
     <header>
         <a href="./index.html"><i class="iconfont icon-fanhui"></i></a>
-        <span>赚钱计划8号1期</span>
-        <i id="menu" class="iconfont icon-caidan"></i>
+        <span class="wenzi">盈信计划2456号1期</span>
+        <i class="iconfont icon-caidan" id="menu"></i>
     </header>
-    <!-- top区域 end -->
+    <!-- 头部结束 -->
 
-    <div class="data">
-        <p class="data1"><strong>9.2%+0.5%</strong></p>
-        <p class="data2"><em>9.7%(9.2%+活动加息0.5%)</em></p>
-    </div>
-
+    <!-- 渐变开始 -->
     <div class="support">
-        <div class="keys">
-            <span>1000元起投</span>
-            <span>限期180天</span>
+        <p class="date1">9.2%+0.5%</p>
+        <p class="date2">9.7%(9.2%+活动加息0.5%)</p>
+    </div>
+    <!-- 渐变结束 -->
+
+
+    <!-- 中间开始 -->
+    <div class="pot">
+        <div class="one">
+            <p class="a">1000元起投</p>
+            <p class="b">期限180天</p>
         </div>
-        <div>
+        <div class="two">
             <ul>
                 <li>
-                    <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+                    <i class="iconfont icon-xinshouzhiyin"></i>
+                    省级律师法律支持
                 </li>
                 <li>
-                    <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+                    <i class="iconfont icon-xinshouzhiyin"></i>
+                    省级律师法律支持
                 </li>
                 <li>
-                    <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+                    <i class="iconfont icon-xinshouzhiyin"></i>
+                    省级律师法律支持
                 </li>
                 <li>
-                    <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+                    <i class="iconfont icon-xinshouzhiyin"></i>
+                    省级律师法律支持
                 </li>
             </ul>
         </div>
-    </div>
-
-    <div class="process">
-        <div class="pro-wrap">
-            <!-- 真实的元素 -->
-            <div class="pro-front"></div>
-            <div class="pro-block">37%</div>
+        <div class="three">
+            <div class="ta">
+                <div class="bfh"></div>
+                <div class="sz">
+                    <p class="aa">37%</p>
+                </div>
+            </div>
+            <div class="tb">
+                <p>已投资<em>37</em>人>></p>
+                <p>剩余可投<em>5236800</em>元</p>
+            </div>
         </div>
-        <p class="pro-info">
-            <span>已投资<em>40</em>人</span>
-            <span>剩余可设<em>888888</em>元</span>
-        </p>
     </div>
+    <!-- 中间结束 -->
 
-    <div class="footerlink">
-        <p><a href="">查看项目详情></a></p>
-    </div>
-
+    <!-- 脚步开始 -->
     <footer>
-        <a href="#" class="earnings">收益估算</a>
-        <a href="#" class="investment">立即投资</a>
+        <div class="look">
+            <a href="">查看项目详情>></a>
+        </div>
+        <div class="zuihou">
+            <div class="get">收益估算</div>
+            <div class="now">立即投资</div>
+        </div>
     </footer>
+    <!-- 脚步结束 -->
 
+    <!-- 蒙版开始 -->
     <div class="mask" id="mask">
         <div class="nav">
-            <a href="#">
+            <a href="">
                 <i class="iconfont icon-zhuye"></i>
-                <span>主页</span>
+                <p>主页</p>
             </a>
-            <a href="#">
+            <a href="">
                 <i class="iconfont icon-suo"></i>
-                <span>安全保障</span>
+                <p>安全保障</p>
             </a>
-            <a href="#">
+            <a href="">
                 <i class="iconfont icon-touzi"></i>
-                <span>我要投资</span>
+                <p>我要投资</p>
             </a>
-            <a href="#">
+            <a href="">
                 <i class="iconfont icon-jiaruwomen"></i>
-                <span>账户中心</span>
+                <p>账户中心</p>
             </a>
         </div>
     </div>
+    <!-- 蒙版结束 -->
 
     <script>
         // 得到蒙版和nav小导航
