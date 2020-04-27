@@ -1,0 +1,217 @@
+body {
+    font-family: "微软雅黑";
+    background-color: #f9f9f9;
+  }
+  .footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0.30666667rem 0rem 0rem 0rem;
+    height: 2.2rem;
+    padding: 0.6rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }
+  body,
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  div,
+  p,
+  ol,
+  table,
+  form,
+  section,
+  dl,
+  dt,
+  dd,
+  header,
+  footer {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  img {
+    border: none;
+    vertical-align: middle;
+  }
+  input,
+  select,
+  textarea {
+    outline: none;
+    border: none;
+    background: none;
+  }
+  textarea {
+    resize: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: normal;
+  }
+  em,
+  i {
+    font-style: normal;
+  }
+
+
+  /* 头部开始 */
+header{
+    height: 1.226667rem;
+    background-color: #fa3432;
+    font-size: .373333rem;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 0rem .506667rem 0rem .4rem;
+}
+header .jiantou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .44rem;
+    width: .626667rem;
+}
+header .jiantou img{
+    height: 100%;
+    width: 100%;
+}
+header .yanzheng{
+    color: #f9f9f9;
+    flex: 1;
+    /* justify-content: center;
+    display: flex; */
+    text-align: center;
+}
+header .hengxian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .48rem;
+    width: .586667rem;
+}
+header .hengxian img{
+    height: 100%;
+    width: 100%;
+}
+  /* 头部结束 */
+
+  /* 猫头开始 */
+.cat{
+    height: 4.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+    
+}
+.cat .cata{
+    height: 2.346667rem;
+    width: 2.453333rem;
+}
+.cat img{
+    height: 100%;
+    width: 100%;
+}
+/* .cat img{
+    border: 1px solid #494848;
+    border-radius: 1.333333rem;
+} */
+  /* 猫头结束 */
+
+  /* 输入框开始 */
+  .shuru{
+      height: 6.666667rem;
+      padding: 0rem .506667rem 0rem .506667rem;
+  }
+  .shuru .a{
+      font-size: .346667rem;
+      color: #0e0e0e;
+      margin-bottom: .293333rem;
+      /* text-align: center; */
+  }
+  .shuru .b{
+      border: 1px solid #eee;
+      height: 1.026667rem;
+      width: 9.333333rem;
+      font-size: .346667rem;
+      color: #a2a2a2;
+      background: url(../img/登陆页-750_r8_c3.png) no-repeat left center;
+      background-size: .48rem .8rem;
+      padding-left: .933333rem;
+      line-height: 1.026667rem;
+      border-radius: .133333rem;
+      margin-bottom: .306667rem;
+  }
+  .shuru .xiayibu{
+      height: 1.066667rem;
+      width: 9.226667rem;
+      background-color: #fa3432;
+      font-size: .4rem;
+      color: #f9f9f9;
+      margin-bottom: .266667rem;
+      border-radius: .133333rem;
+      text-align: center;
+      line-height: 1.066667rem;
+
+  }
+  .shuru .yuedu{
+      font-size: .346667rem;
+      color: #a2a2a2;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* height: .4rem; */
+  }
+  /* 输入框结束 */
+
+  /* 脚步开始 */
+  .foot{
+      height: 2.266667rem;
+      background-color: #f9f9f9;
+      font-size: .32rem;
+  }
+  .foot a{
+      color: #0e0e0e;
+      /* text-align: center; */
+  }
+  .foot .wenzi{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .foot .wei{
+      color: #a2a2a2;
+      font-size: .266667rem;
+      /* text-align: center;  */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  /* 脚步结束 */

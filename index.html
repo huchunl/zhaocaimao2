@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>招财猫</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
     <script>
         // rem适配
         window.onload = function () {
@@ -14,156 +13,180 @@
             document.querySelector("html").style.fontSize = fs + "px";
         }
     </script>
+    <style>
+    </style>
 </head>
 
 <body>
-    <!-- header start -->
+    <!-- 顶部 -->
     <header>
-        <div class="logo">
-            <a href="#">
-                <h1>我的招财猫</h1>
+        <div class="one">
+            <a href="#">招财猫理财</a>
+        </div>
+        <div class="two">
+            <a href="./zhuce.html">
+                登录|注册
             </a>
         </div>
-        <div class="loginArea">
-            <a href="#">注册</a> | <a href="#">登录</a>
-        </div>
     </header>
-    <!-- header end -->
+    <!-- 顶部结束 -->
+    <!-- 导航开始 -->
+    <div class="nav">
+        <span class="one">首页</span>
+        <span class="two">我要投资</span>
+        <span class="three">账户中心</span>
 
-    <!-- topmenu start -->
-    <div class="topmenu">
-        <a class="current" href="#">首页</a>
-        <a href="./detail.html">我要投资</a>
-        <a href="#">账户中心</a>
     </div>
-    <!-- topmenu end -->
-
-    <!-- 轮播图 start -->
-    <div class="swiper">
-        <a href="#"><img src="./img/slider1.jpg" alt=""></a>
+    <!-- 导航结束 -->
+    <!-- 轮播图开始 -->
+    <div class="lbt">
+        <img src="./img/slider1.jpg" alt="">
     </div>
-    <!-- 轮播图 end -->
-
-    <!-- nav start -->
-    <div class="quicklinks">
-        <a href="#">
+    <!-- 轮播图结束 -->
+    <!-- 小介绍开始 -->
+    <div class="prodactstart">
+        <div class="one">
             <img src="./img/home_ico_01.png" alt="">
             <p>安全保障</p>
-        </a>
-        <a href="#">
+        </div>
+        <div class="one">
             <img src="./img/home_ico_02.png" alt="">
             <p>关于我们</p>
-        </a>
-        <a href="#">
+        </div>
+        <div class="one">
             <img src="./img/home_ico_03.png" alt="">
-            <p>新手指引</p>
-        </a>
-        <a href="#">
+            <p>新手引导</p>
+        </div>
+        <div class="one">
             <img src="./img/home_ico_04.png" alt="">
             <p>帮助中心</p>
-        </a>
-    </div>
-    <!-- nav end -->
-
-    <!-- 热门产品 start -->
-    <div class="hot">
-        <h2 class="product title"><span>热门产品</span><a href="#">更多</a></h2>
-        <ul>
-            <li>
-                <div class="productName">
-                    <h3>赚钱计划8888号2期</h3>
-                    <span><i>返现金</i><em>V</em></span>
-                </div>
-                <div class="productInfo">
-                    <div class="data"><em>9.2%</em><span>+0.5%</span></div>
-                    <div class="date">
-                        <em>300天</em>
-                        <p>投资期限</p>
-                    </div>
-                    <div class="circle">
-                        <img src="./img/cicle.png" alt="">
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="productName">
-                    <h3>赚钱计划8888号2期</h3>
-                    <span><i>返现金</i><em>V</em></span>
-                </div>
-                <div class="productInfo">
-                    <div class="data"><em>9.2%</em><span>+0.5%</span></div>
-                    <div class="date">
-                        <em>300天</em>
-                        <p>投资期限</p>
-                    </div>
-                    <div class="circle">
-                        <img src="./img/cicle.png" alt="">
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="productName">
-                    <h3>赚钱计划8888号2期</h3>
-                    <span><i>返现金</i><em>V</em></span>
-                </div>
-                <div class="productInfo">
-                    <div class="data"><em>9.2%</em><span>+0.5%</span></div>
-                    <div class="date">
-                        <em>300天</em>
-                        <p>投资期限</p>
-                    </div>
-                    <div class="circle">
-                        <img src="./img/cicle.png" alt="">
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <!-- 热门产品 end -->
-
-    <!-- 企业动态 start -->
-    <div class="new">
-        <h2 class="product title"><span>企业动态</span><a href="#">更多</a></h2>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="./img/news20170309133946_工资日标题.jpg" alt="">
-                    <div>
-                        <h4>春日梦想 植树专享</h4>
-                        <p><span>来源:招财猫理财</span><span>2020-04-18</span></p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/news20170309133946_工资日标题.jpg" alt="">
-                    <div>
-                        <h4>春日梦想 植树专享</h4>
-                        <p><span>来源:招财猫理财</span><span>2020-04-18</span></p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/news20170309133946_工资日标题.jpg" alt="">
-                    <div>
-                        <h4>春日梦想 植树专享</h4>
-                        <p><span>来源:招财猫理财</span><span>2020-04-18</span></p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- 企业动态 end -->
-
-
-    <!-- foot start -->
-    <div class="footer">
-        <div class="links"><a href="#">解屏版</a><a href="#">|</a><a href="#">电脑版</a><a href="#">|</a><a href="#">App下载</a>
         </div>
-        <div class="copyright">今天写了一个小小的招财猫不页面</div>
     </div>
-    <!-- foot end -->
+    <!-- 小介绍结束 -->
+    <!-- 热门产品介绍开始 -->
+    <div class="hotprodction">
+        <div class="one">
+            <div class="onea">
+                <!-- <img src="./img/home_ico_09.png" alt=""> -->
+                <p>热门产品</p>
+            </div>
+            <div class="oneb">更多</div>
+        </div>
+        <div class="two">
+            <a href="./detail.html">
+            <li class="twoa">
+                <div class="twoaa">盈信计划20207号1</div>
+                <div class="twoab">
+                    <span class="money">返现金</span>
+                    <span class="zm">V</span>
+                </div>
+            </li>
+            <li class="twob">
+                <div class="bb"><span class="cc">9.2%</span><span class="dd">+0.5%</span></div>
+                <span class="tian">
+                    <span class="ttt">180天</span></br>
+                    <span class="tz">投资期限</span>
+                </span>
+                <div class="photo">
+                    <img src="./img/主页-750_r8_c5.png" alt="">
+                </div>
+            </li>
+        </a>
+        </div>
+        <div class="two">
+            <li class="twoa">
+                <div class="twoaa">盈信计划20207号1</div>
+                <div class="twoab">
+                    <span class="money">返现金</span>
+                    <span class="zm">V</span>
+                </div>
+            </li>
+            <li class="twob">
+                <div class="bb"><span class="cc">9.2%</span><span class="dd">+0.5%</span></div>
+                <span class="tian">
+                    <span class="ttt">180天</span></br>
+                    <span class="tz">投资期限</span>
+                </span>
+                <div class="photo">
+                    <img src="./img/主页-750_r8_c5.png" alt="">
+                </div>
+            </li>
+        </div>
+        <div class="two">
+            <li class="twoa">
+                <div class="twoaa">盈信计划20207号1</div>
+                <div class="twoab">
+                    <span class="money">返现金</span>
+                    <span class="zm">V</span>
+                </div>
+            </li>
+            <li class="twob">
+                <div class="bb"><span class="cc">9.2%</span><span class="dd">+0.5%</span></div>
+                <span class="tian">
+                    <span class="ttt">180天</span></br>
+                    <span class="tz">投资期限</span>
+                </span>
+                <div class="photo">
+                    <img src="./img/主页-750_r8_c5.png" alt="">
+                </div>
+            </li>
+        </div>
+    </div>
+    <!-- 热门产品介绍结束 -->
+    <!-- 企业动态开始 -->
+    <div class="qiyedongtai1">
+        <div class="one">
+            <p>企业动态</p>
+        </div>
+    </div>
+    <div class="qiyedongtai">
+        <li class="chun">
+            <div class="tp"><img src="./img/news20170310144045_植树节专享标题.jpg" alt=""></div>
+            <div class="wz">
+                <div class="wz1">春日梦想 植树专享</div>
+                <div class="wz2">
+                    <div class="wz21">来源：招财猫</div>
+                    <div class="wz23">2017-03-10</div>
+                </div>
+            </div>
+        </li>
+        <li class="chun">
+            <div class="tp"><img src="./img/news20170310144045_植树节专享标题.jpg" alt=""></div>
+            <div class="wz">
+                <div class="wz1">春日梦想 植树专享</div>
+                <div class="wz2">
+                    <div class="wz21">来源：招财猫</div>
+                    <div class="wz23">2017-03-10</div>
+                </div>
+            </div>
+        </li>
+        <li class="chun">
+            <div class="tp"><img src="./img/news20170310144045_植树节专享标题.jpg" alt=""></div>
+            <div class="wz">
+                <div class="wz1">春日梦想 植树专享</div>
+                <div class="wz2">
+                    <div class="wz21">来源：招财猫</div>
+                    <div class="wz23">2017-03-10</div>
+                </div>
+            </div>
+        </li>
+    </div>
+    </div>
+
+    <!-- 企业动态结束 -->
+    <!-- 脚步开始 -->
+    <div class="foot">
+        <div class="tou">
+            <p>触屏版</p>
+            <p>|</p>
+            <p>电脑版</p>
+            <p>|</p>
+            <p>APP下载</p>
+        </div>
+        <div class="wei">@2017招财猫理财</div>
+    </div>
+
+    <!-- 脚步结束 -->
 </body>
 
 </html>
