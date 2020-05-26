@@ -1,0 +1,62 @@
+.top{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    max-width: 10rem;
+    height: 1.266667rem;
+    background-color: #fa3432;
+    padding: .4rem;
+}
+.top .jian{
+    width: .653333rem;
+    height: .466667rem;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+}
+.top .mulu{
+    width: .586667rem;
+    height: .48rem;
+}
+.top p{
+    flex: 1;
+    color: #fff;
+    text-align: center;
+}
+/* ----------------------------- */
+.big{
+    width: 100%;
+    margin-top: 1.266667rem;
+    /* height: 13.333333rem; */
+}
+.big .learn{
+    width: 100%;
+    height: 1.12rem;
+    padding: .173333rem .4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big .learn .cat{
+    width: .773333rem;
+    height: .773333rem;
+    margin-right: .28rem;
+}
+.big .learn .cat img{
+    width: 100%;
+    height: 100%;
+}
+.big .learn a{
+    color: #4c4b4b;
+    font-size: .333333rem;
+    flex: 1;
+    /* line-height: .773333rem; */
+}
+.big .learn .kuo{
+    color: #fa9931;
+    /* line-height: .773333rem; */
+    font-weight: bold;
+}
